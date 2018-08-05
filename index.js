@@ -18,9 +18,9 @@ function increaseRankBy(n) {
 function deepestChild() {
   var grande = document.querySelector('#grand-node');
   
-  var childNode = null;
+  var currentNode = grande;
   
-  while ()
+  while (currentNode.hasChi)
   for (let i = 0; i < grande.length; i++) {
     grande.
   }
