@@ -20,7 +20,9 @@ function deepestChild() {
   
   var currentNode = grande;
   
-  while (currentNode.hasChi)
+  while (currentNode.hasChildNodes()) {
+    currentNode
+  }
   for (let i = 0; i < grande.length; i++) {
     grande.
   }
