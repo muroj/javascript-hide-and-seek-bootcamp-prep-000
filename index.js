@@ -20,8 +20,9 @@ function deepestChild() {
   var currentNode = document.querySelector('#grand-node');
   var prevNode = null;
   
-  while (currentNode.querySelector('div')) {
+  while (currentNode) {
     prevNode = currentNode;
+    currentNode = currentNode.querySelector('div');
   }
   
   return prevNode;
