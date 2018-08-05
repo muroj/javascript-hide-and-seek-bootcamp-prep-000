@@ -16,15 +16,13 @@ function increaseRankBy(n) {
 }
 
 function deepestChild() {
+  
   var grande = document.querySelector('#grand-node');
   
   var currentNode = grande;
   
   while (currentNode.hasChildNodes()) {
-    currentNode
-  }
-  for (let i = 0; i < grande.length; i++) {
-    grande.
+    currentNode = currentNode.
   }
   
 }
